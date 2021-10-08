@@ -29,9 +29,9 @@ ignoreErrors = ["error-remote-getjson"]
         favicon = "https://qiushido.github.io/img/favicon.ico"
 
 	mode = "auto" # "dark" or "auto"
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
-	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
-	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+	customCSS = "css/normalize.css"  # Custom CSS applied to default styles.
+	customDarkCSS = "css/dark.css"  # Custom styles applied to dark mode css.
+	customJS = ["js/feather.min.js", "js/main.js"]  # Custom JS scripts.
 
 # Nav.
 [[menu.main]]
