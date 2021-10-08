@@ -1,0 +1,6 @@
+[submodule "hugo-ink"]
+	path = hugo-ink
+	url = https://github.com/knadh/hugo-ink.git
+[submodule "themes/ink"]
+	path = themes/ink
+	url = https://github.com/knadh/hugo-ink.git

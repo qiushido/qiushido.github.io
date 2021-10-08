@@ -1,0 +1,68 @@
+baseURL = "https://qiushido.github.io"
+languageCode = "en-us"
+title = "QiuShi"
+theme = "ink"
+paginate = 5
+
+copyright = "© Copyright notice"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "qiushido"
+disqusShortname = "ink-demo"
+
+ignoreErrors = ["error-remote-getjson"]
+
+[params]
+	subtitle = "保持年轻的心 保持对技术的热忱"
+
+	# Optional 64x64 avatar image.
+	avatar = "https://qiushido.github.io/img/avatar-icon.png"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+        favicon = "https://qiushido.github.io/img/favicon.ico"
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "主页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "所有文章"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "关于"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "分类"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/qiushido"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
