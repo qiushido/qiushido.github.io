@@ -140,8 +140,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     clientSecret = ""       # Your client secret
 
   [params.utterances]       # https://utteranc.es/
+    enable = true
     owner = "qiushido"              # Your GitHub ID
-    repo = "qiushido/qiushido.github.io"               # The repo to store comments
+    repo = "qiushido.github.io"               # The repo to store comments
+	issueTerm = "pathname"
 
   [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
     owner = ""              # Your GitHub ID
