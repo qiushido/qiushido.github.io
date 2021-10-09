@@ -1,7 +1,9 @@
 ---
-title: "关于"
+title: "About"
 date: 2021-10-08T05:30:00+08:00
-type: "page"
+lastmod: 2021-10-09T04:00:00+08:00
+menu: "main"
+weight: 50
 ---
 
 ### 我是秋实
